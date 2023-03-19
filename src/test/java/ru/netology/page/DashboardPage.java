@@ -23,7 +23,7 @@ public class DashboardPage {
     }
 
     public int getCardBalance(DataGenerator.CardInfo cardInfo) {
-        var text = cards.findBy(attribute("data -test-id", cardInfo.getId())).getText();
+        var text = cards.findBy(attribute("data-test-id", cardInfo.getId())).getText();
         return extractBalance(text);
     }
 
