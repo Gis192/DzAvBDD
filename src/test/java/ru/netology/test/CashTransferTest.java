@@ -42,7 +42,7 @@ public class CashTransferTest {
         assertEquals(expectedBalanceOfSecondCard, actualBalanceOfSecondCard);
 
     }
-   /* @Test
+    @Test
     void shouldTransferMoneyToFirstCard () {
         var firstCardBalance = DataGenerator.getFirstCardBalance();
         var secondCardBalance = DataGenerator.getSecondCardBalance();
@@ -57,6 +57,6 @@ public class CashTransferTest {
         var actualBalanceOfSecondCard = dashboardPage.getCardBalance(secondCardBalance);
         assertEquals(expectedBalanceOfFirstCard, actualBalanceOfFirstCard);
         assertEquals(expectedBalanceOfSecondCard, actualBalanceOfSecondCard);
-    }*/
+    }
 }
 
